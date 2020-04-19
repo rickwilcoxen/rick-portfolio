@@ -1,1 +1,7 @@
+/* @import '~bootstrap/scss/bootstrap'; */
 
+/* $body-color: #aab7b8; */
+
+.box {
+  background-color: #aab7b8;
+}
