@@ -1,10 +1,51 @@
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
+@import '~bootstrap/scss/bootstrap';
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
   display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import '~bootstrap/scss/bootstrap';\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets/styles/scss/main.scss 1:9  root stylesheet";
+  color: #212f3c;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #bfc9ca;
+  color: #212f3c;
+  text-decoration: none;
+}
+
+.featured {
+  height: 50%;
+  width: auto;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.box {
+  background-color: #eaeded;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
 }

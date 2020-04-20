@@ -4,8 +4,8 @@
       <title>Rick Wilcoxen</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Scripts -->
-      <!-- <link href="assets/styles/main.css" rel="stylesheet"> -->
-      <link href="assets/styles/scss/main.scss" rel="stylesheet">
+      <link href="assets/styles/main.css" rel="stylesheet">
+      <!-- <link href="assets/styles/scss/main.scss" rel="stylesheet"> -->
       <!-- CDN version of popper.js added before compiled version of CSS-->
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -14,28 +14,41 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
       <!-- Other scripts -->
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/index.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
       <!-- Nav -->
-      <div id="nav" class="overlay">
-        <div id="overlay-content">
-          <a href=""> About </a>
-          <a href=""> Projects </a>
-          <a href=""> Resume </a>
-          <a href=""> Contact </a>
-        </div>
-      </div>
+      <nav class="navbar">
+        <a href="public/index.html" class="home"> RJW </a>
+        <a href="assets/pages/about.html"> About </a>
+        <a href="assets/pages/projects.html"> Projects </a>
+        <a href="assets/pages/resume.html"> Resume </a>
+        <a href="assets/pages/contact.html"> Contact </a>
+      </nav>
       <!-- Main Contents -->
       <main>
-      <h1> Rick Wilcoxen </h1>
-      <div id="slogan" class="col-12 box"> Slogan </div>
-      <div id="reel" class="col-12 box"> Reek </div>
-      <div id="links" class="col-12 box"> Links </div>
+
+      <!-- Slogan -->
+      <div class="row">
+
+        <div id="slogan" class="col-12 box">
+        An image will be here
+        </div>
+      </div>
+      <!-- Featured -->
+      <div class="row">
+        <div id="featured" class="col-12 box">
+          ~ Featured ~
+        </div>
+      </div>
+      <!-- Links -->
+      <div class="row">
+        <div id="links" class="col-12 box"> Links! Links! Links! </div>
+      </div>
 
       </main>
       <!-- Footer -->
-      <footer> © 2020 Rick Wilcoxen </footer>
+      <footer>© 2020 Rick Wilcoxen</footer>
     </body>
 
 </html>
